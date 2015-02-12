@@ -1,0 +1,24 @@
+{
+  "name": "zetta-device-data-kairosdb",
+  "version": "0.1.0",
+  "description": "Send all device data to KairosDb",
+  "main": "collection-kairosdb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zetta",
+    "kairosdb"
+  ],
+  "author": "Adam Magaluk <AdamMagaluk@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "kairosdb": "0.0.3",
+    "rx": "^2.3.25",
+    "zetta-device-data-collection": "^0.1.0"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {}
+}
